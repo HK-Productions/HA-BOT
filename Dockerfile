@@ -1,8 +1,8 @@
 FROM python:3.11
 
-WORKDIR /HAxINFINITY
+WORKDIR /HA-BOT
 
-COPY . /HAxINFINITY
+COPY . /HA-BOT
 
 RUN pip install -r requirements.txt
 
